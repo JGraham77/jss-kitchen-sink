@@ -6,7 +6,7 @@ var add = (5 + 4);
 // This var adds 5 and 4 together
 
 function sayHello() {
-    console.log('Hello World');
+    alert('Hello World');
 }
 sayHello();
 
