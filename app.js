@@ -24,7 +24,7 @@ let vegies = ['broccoli', 'spinach', 'potatoes'];
 
 for(var i = 0; i < vegies.length; i++) {
     console.log(vegies[i]);
-}
+};
 
 let pet = {
     'name': 'Mitzi',
@@ -32,3 +32,35 @@ let pet = {
 };
 
 console.log(pet.name, pet.breed);
+
+let mark = {
+    name: 'Mark',
+    age: 20,
+};
+
+let shayla = {
+    name: 'Shayla',
+    age: 28,
+};
+
+let dylan = {
+    name: 'Dylan',
+    age: 25,
+};
+
+let chad = {
+    name: 'Chad',
+    age: 17,
+};
+
+let anna = {
+    name: 'Anna',
+    age: 16,
+};
+
+
+let people = [mark, shayla, dylan, chad, anna];
+
+for(var i = 0; i < people.length; i++) {
+    checkAge(people[i].name, people[i].age);
+};
