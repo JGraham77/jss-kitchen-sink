@@ -25,3 +25,10 @@ let vegies = ['broccoli', 'spinach', 'potatoes'];
 for(var i = 0; i < vegies.length; i++) {
     console.log(vegies[i]);
 }
+
+let pet = {
+    'name': 'Mitzi',
+    'breed': 'Cat',
+};
+
+console.log(pet.name, pet.breed);
