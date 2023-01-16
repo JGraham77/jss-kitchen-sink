@@ -64,3 +64,14 @@ let people = [mark, shayla, dylan, chad, anna];
 for(var i = 0; i < people.length; i++) {
     checkAge(people[i].name, people[i].age);
 };
+
+function getLength(anyWord) {
+    console.log(anyWord.length);
+    let myWordLength = anyWord.length;
+    if(myWordLength % 2 == 00 ) {
+        console.log("The world is even!");
+    } else {
+        console.log("The world is an odd place!");
+    }
+}
+getLength("Hello World");
